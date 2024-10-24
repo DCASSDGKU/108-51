@@ -1,0 +1,9 @@
+.footer{
+    min-height: calc(100vh - 111);
+}
+
+.content{
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+}

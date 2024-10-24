@@ -1,0 +1,41 @@
+
+.product {
+    border: 1px solid #333;
+    border-radius: 25px;
+    margin: 12px;
+    background-color: rgb(91, 27, 194);
+    display: inline-block;
+    width: 250px;
+    height: 420px;
+    vertical-align: top;
+}
+.product h3 {
+    margin: 5px;
+    color: tomato;
+}
+
+.product img{
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.product-price{
+    display: flex;
+    flex-direction: column;
+}
+.product button{
+    margin-top: 5px;
+}
+.product .parent{
+    display: flex;
+}
+
+.product .product-price{
+    display: flex;
+    justify-content: space-around;
+}
+
